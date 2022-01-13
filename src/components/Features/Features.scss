@@ -1,31 +1,49 @@
 @import "../../styles/styles";
 
 .features-section {
-    background-color: $secondary-light-grayish-blue;
-    margin-top: -150px;
-    padding: 4em 3em;
+  background-color: $secondary-light-grayish-blue;
+  margin-top: -150px;
+  padding: 4em 3em;
+
+  .features-header {
+    @include flex-column;
+
+    h2 {
+      font-weight: $font-normal;
+      font-size: 2em;
+      margin-bottom: 40px;
+      color: $primary-dark-blue;
+    }
+
+    p {
+      opacity: 50%;
+      width: 50%;
+      font-size: 18px;
+      line-height: 1.5em;
+      margin-bottom: 50px;
+    }
+  }
+
+  .feature-container {
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .features-section {
+    margin: 0;
 
     .features-header {
-        @include flex-column;
+        text-align: center;
         
-
-        h2 {
-            font-weight: $font-normal;
-            font-size: 2em;
-            margin-bottom: 40px;
-            color: $primary-dark-blue;
-        }
-
         p {
-            opacity: 50%;
-            width: 50%;
-            font-size: 18px;
-            line-height: 1.5em;
-            margin-bottom: 50px;
+            text-align: center;
+            width: 100%;
         }
     }
 
     .feature-container {
-        display: flex;
+        flex-direction: column;
     }
+  }
 }

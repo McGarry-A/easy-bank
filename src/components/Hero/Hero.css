@@ -6,8 +6,6 @@
   width: 100%;
   position: relative;
   overflow: hidden;
-  background-color: #fafafa;
-  z-index: -1;
 }
 
 .hero .hero-left {
@@ -65,5 +63,35 @@
 .hero .hero-right .mockups {
   margin-top: -100px;
   z-index: 100;
+}
+
+@media screen and (max-width: 425px) {
+  .hero {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+    margin-bottom: 100px;
+  }
+  .hero .hero-right .mockups {
+    width: 100%;
+  }
+  .hero .hero-right .bgIntro {
+    right: -550px;
+    top: -560px;
+  }
+  .hero .hero-left {
+    padding: 0;
+    margin-top: 20px;
+    text-align: center;
+    font-size: .75em;
+  }
+  .hero .hero-left .hero-subtext {
+    text-align: center;
+    width: 100%;
+  }
+  .hero .hero-left button {
+    margin: 0 auto;
+  }
 }
 /*# sourceMappingURL=Hero.css.map */

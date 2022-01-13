@@ -35,4 +35,23 @@
   display: -ms-flexbox;
   display: flex;
 }
+
+@media screen and (max-width: 425px) {
+  .features-section {
+    margin: 0;
+  }
+  .features-section .features-header {
+    text-align: center;
+  }
+  .features-section .features-header p {
+    text-align: center;
+    width: 100%;
+  }
+  .features-section .feature-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
 /*# sourceMappingURL=Features.css.map */

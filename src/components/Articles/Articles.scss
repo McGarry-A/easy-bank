@@ -18,3 +18,11 @@
     }
 }
 
+
+@media screen and (max-width: 425px) {
+    .articles {
+        .article-container {
+            flex-direction: column;
+        }
+    }
+}

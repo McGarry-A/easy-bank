@@ -25,4 +25,17 @@
   line-height: 1.5em;
   opacity: 50%;
 }
+
+@media screen and (max-width: 425px) {
+  .feature .feature-image {
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .feature .feature-title {
+    text-align: center;
+  }
+  .feature .feature-text {
+    text-align: center;
+  }
+}
 /*# sourceMappingURL=Feature.css.map */

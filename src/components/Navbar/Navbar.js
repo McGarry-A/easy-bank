@@ -1,5 +1,6 @@
 import "./Navbar.css";
 import Logo from "../../images/logo.svg"
+import Hamburger from "../../images/icon-hamburger.svg"
 const Navbar = () => {
   return (
     <header className="navbar">
@@ -17,6 +18,7 @@ const Navbar = () => {
       </nav>
       <div className="nav-cta-container">
           <button className="nav-cta">Request Invite</button>
+          <img className="hamburger" src={Hamburger} alt="menu"/>
       </div>
     </header>
   );

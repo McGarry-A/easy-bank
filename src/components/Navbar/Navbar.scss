@@ -27,5 +27,29 @@
                 // Border bottom is a gradient
             }
         }
+
+        .hamburger {
+            display: none;
+        }
+    }
+}
+
+@media screen and (max-width:425px) {
+    .navbar {
+        nav {
+            .nav-list {
+                display: none;
+            }
+        }
+
+        .nav-cta-container {
+            .nav-cta {
+                display: none;
+            }
+            .hamburger {
+                display: flex;
+                cursor: pointer;
+            }
+        }
     }
 }

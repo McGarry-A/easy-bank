@@ -46,4 +46,10 @@
 .article .article-text-container .article-text {
   opacity: 50%;
 }
+
+@media screen and (max-width: 425px) {
+  .article {
+    margin-bottom: 40px;
+  }
+}
 /*# sourceMappingURL=Article.css.map */
