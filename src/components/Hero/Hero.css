@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;700&display=swap");
+.hero {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.hero .hero-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
+  padding: 10em 1em;
+}
+
+.hero .hero-left .hero-title {
+  font-size: 4em;
+  font-weight: 400;
+}
+
+.hero .hero-left .hero-subtext {
+  font-weight: 300;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  opacity: 50%;
+  width: 75%;
+  line-height: 1.5em;
+  font-size: 18px;
+}
+
+.hero .hero-left button {
+  background-image: -webkit-gradient(linear, left top, right top, from(#31d35c), to(#2bb7da));
+  background-image: linear-gradient(to right, #31d35c, #2bb7da);
+  padding: 1em 1.8em;
+  color: white;
+  font-weight: 700;
+  border-radius: 30px;
+  border: none;
+  font-size: 14px;
+  cursor: pointer;
+  width: 200px;
+}
+
+.hero .hero-right {
+  width: 100%;
+}
+
+.hero .hero-right .bgIntro {
+  position: absolute;
+  right: -400px;
+  top: -250px;
+  z-index: -100;
+}
+
+.hero .hero-right .mockups {
+  margin-top: -100px;
+}
+/*# sourceMappingURL=Hero.css.map */

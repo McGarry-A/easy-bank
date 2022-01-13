@@ -1,0 +1,24 @@
+@import "../../styles/styles";
+
+.features-section {
+    background-color: $secondary-very-light-gray;
+    margin-top: -150px;
+
+    .features-header {
+        @include flex-column;
+        padding: 4em 1em;
+
+        h2 {
+            font-weight: $font-normal;
+            font-size: 2em;
+            margin-bottom: 40px;
+        }
+
+        p {
+            opacity: 50%;
+            width: 50%;
+            font-size: 18px;
+            line-height: 1.5em;
+        }
+    }
+}

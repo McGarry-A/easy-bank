@@ -1,0 +1,49 @@
+@import "../../styles/styles";
+
+.hero {
+  display: flex;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+
+  .hero-left {
+      @include flex-column;
+      width: 100%;
+      padding: 10em 1em;
+
+      .hero-title {
+          font-size: 4em;  
+          font-weight: $font-normal;
+      }
+
+      .hero-subtext {
+          font-weight: $font-light;
+          margin-top: 40px;
+          margin-bottom: 40px;
+          opacity: 50%;
+          width: 75%;
+          line-height: 1.5em;
+          font-size: 18px;
+      }
+
+      button {
+          @include gradient-themed-button;
+          width: 200px
+      }
+  }
+
+  .hero-right {
+    width: 100%;
+    
+    .bgIntro {
+        position: absolute;
+        right: -400px;
+        top: -250px;
+        z-index: -100;
+    }
+
+    .mockups {
+        margin-top: -100px;
+    }
+  }
+}
