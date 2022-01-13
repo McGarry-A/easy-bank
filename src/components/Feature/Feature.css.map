@@ -1,8 +1,9 @@
 {
     "version": 3,
-    "mappings": "",
+    "mappings": "ACAA,OAAO,CAAC,yFAAI;ADEZ,AAAA,QAAQ,CAAC;ECmCL,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,MAAM;EDlCtB,OAAO,EAAE,GAAG;CAiBf;;AAnBD,AAII,QAJI,CAIJ,cAAc,CAAC;EACX,KAAK,EAAE,IAAI;EACX,aAAa,EAAE,IAAI;CACtB;;AAPL,AASI,QATI,CASJ,cAAc,CAAC;EACX,WAAW,ECPL,GAAG;EDQT,aAAa,EAAE,IAAI;EACnB,KAAK,ECHO,OAAkB;CDIjC;;AAbL,AAeI,QAfI,CAeJ,aAAa,CAAC;EACV,WAAW,EAAE,KAAK;EAClB,OAAO,EAAE,GAAG;CACf",
     "sources": [
-        "Feature.scss"
+        "Feature.scss",
+        "../../styles/styles.scss"
     ],
     "names": [],
     "file": "Feature.css"
