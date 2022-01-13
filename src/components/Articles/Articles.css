@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;700&display=swap");
+.articles {
+  padding: 3em;
+  background-color: #fafafa;
+}
+
+.articles .articles-header h2 {
+  font-weight: 400;
+  color: #2d314d;
+  font-size: 2em;
+  margin-bottom: 50px;
+}
+
+.articles .article-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+/*# sourceMappingURL=Articles.css.map */

@@ -5,6 +5,8 @@
   width: 100%;
   position: relative;
   overflow: hidden;
+  background-color: $secondary-very-light-gray;
+  z-index: -1;
 
   .hero-left {
       @include flex-column;
@@ -45,6 +47,7 @@
 
     .mockups {
         margin-top: -100px;
+        z-index: 100;
     }
   }
 }

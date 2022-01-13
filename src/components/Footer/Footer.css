@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;700&display=swap");
+.footer {
+  background-color: #2d314d;
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 3em;
+}
+
+.footer .footer-col-1 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 100px;
+  -webkit-box-flex: 2;
+      -ms-flex: 2;
+          flex: 2;
+  margin: 0;
+  padding: 0;
+}
+
+.footer .footer-col-1 .footer-logo-container {
+  margin: 0 auto;
+}
+
+.footer .footer-col-1 .footer-socials-container .footer-socials-list {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.footer .footer-col-1 .footer-socials-container .footer-socials-list .footer-social-item {
+  padding: 0 .5em;
+}
+
+.footer .footer-col-2, .footer .footer-col-3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.footer .footer-col-2 .footer-nav-links, .footer .footer-col-3 .footer-nav-links {
+  list-style: none;
+}
+
+.footer .footer-col-2 .footer-nav-links .footer-nav-link-item, .footer .footer-col-3 .footer-nav-links .footer-nav-link-item {
+  margin: 1em 0;
+  cursor: pointer;
+  font-weight: 300;
+}
+
+.footer .padding {
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+}
+
+.footer .footer-col-5 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.footer .footer-col-5 button {
+  background-image: -webkit-gradient(linear, left top, right top, from(#31d35c), to(#2bb7da));
+  background-image: linear-gradient(to right, #31d35c, #2bb7da);
+  padding: 1em 1.8em;
+  color: white;
+  font-weight: 700;
+  border-radius: 30px;
+  border: none;
+  font-size: 14px;
+  cursor: pointer;
+  width: 150px;
+  margin-bottom: 20px;
+}
+
+.footer .footer-col-5 p {
+  opacity: 50%;
+  font-size: 12px;
+}
+/*# sourceMappingURL=Footer.css.map */

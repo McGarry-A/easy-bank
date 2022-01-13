@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;700&display=swap");
+.article {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-right: 1em;
+  margin-top: 10px;
+}
+
+.article .article-image-container .article-image {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: 300px;
+  border-radius: 10px 10px 0 0;
+  margin-bottom: 40px;
+}
+
+.article .article-text-container {
+  padding: 0 1.5em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.article .article-text-container .article-author {
+  font-size: 12px;
+  opacity: 50%;
+  margin-bottom: 10px;
+}
+
+.article .article-text-container .article-title {
+  font-weight: 400;
+  color: #2d314d;
+  margin-bottom: 10px;
+}
+
+.article .article-text-container .article-text {
+  opacity: 50%;
+}
+/*# sourceMappingURL=Article.css.map */
